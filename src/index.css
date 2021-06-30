@@ -75,6 +75,27 @@ code {
   padding-top: 60px;
 }
 
-ul{
-  list-style-type:none;
+ul {
+  list-style-type: none;
+}
+.date {
+  font-weight: bold;
+}
+
+#enterok {
+  color: green;
+}
+#enternot {
+  color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+#titleitogo {
+  font-weight: bold;
 }
